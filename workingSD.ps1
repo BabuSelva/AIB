@@ -6,6 +6,7 @@ function Write-Log {
     Write-Output "$(get-date -format 'yyyyMMdd HH:mm:ss') $message" | Out-File -Encoding utf8 $logFile -Append
 }
 #endregion
+#test
 
 
 #install JRE
